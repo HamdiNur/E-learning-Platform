@@ -2,8 +2,8 @@ import React from 'react';
 
 const App = () => {
   return (
-    <div>
-      welcome To E-LearningPlatform
+    <div className="bg-blue-400">
+     welcome To E-LearningPlatform
     </div>
   );
 }
