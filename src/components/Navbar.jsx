@@ -30,11 +30,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="hidden lg:flex lg:items-center gap-x-2">
-            <button className="flex items-center justify-center rounded-md bg-[#004D40] text-white px-6 py-2.5 font-semibold shadow-lg shadow-black hover:bg-[#00796B] transition duration-200">
-              Sign Up
+            <button className="flex items-center justify-center rounded-md bg-[#004D40] text-white px-6 py-2.5 font-semibold shadow-xl shadow-black hover:bg-[#00796B] hover:scale-110 transition duration-200">
+             <Link to="/signup">SignUp</Link>
             </button>
-            <button className="flex items-center justify-center rounded-md bg-[#00796B] text-white px-6 py-2.5 font-semibold shadow-lg shadow-black hover:bg-[#004D40] transition duration-200">
-              Login
+            <button className="flex items-center justify-center rounded-md bg-[#004D40] shadow-xl shadow-black text-white px-6 py-2.5 font-semibold hover:bg-[#00796B] hover:scale-110 transition duration-200">
+              <Link to="/login">Login</Link>
             </button>
           </div>
           <div className="flex items-center justify-center lg:hidden">
