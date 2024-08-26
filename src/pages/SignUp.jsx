@@ -14,13 +14,42 @@ const SignUp = () => {
                 <div class="px-4 py-6 sm:px-8 sm:py-7">
                     <form action="#" method="POST">
                         <div class="space-y-5">
-                            <div>
+                        <div>
                                 <label for="" class="text-base font-medium text-gray-900"> First & Last name </label>
                                 <div class="mt-2.5 relative text-gray-400 focus-within:text-gray-600">
                                     <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                                         <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                                         </svg>
+                                    </div>
+
+                                    <input
+                                        type="text"
+                                        name=""
+                                        id=""
+                                        placeholder="Enter your full name"
+                                        class="block w-full py-4 pl-10 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-[#00796B] caret-[#00796B]"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <label for="" class="text-base font-medium text-gray-900"> Phone </label>
+                                <div class="mt-2.5 relative text-gray-400 focus-within:text-gray-600">
+                                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                    <svg
+                          className="w-5 h-5"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                          />
+                        </svg>
                                     </div>
 
                                     <input
