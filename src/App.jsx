@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 import Login from './pages/Login';
 import AdminDashboard from './components/AdminDashboard';
+import InstructorDashboard from './components/InstructorDashboard/InstructorDashboard';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <div className="bg-background min-h-screen">
         <Navbar />
         <Routes>
+          {/* <Route path='/'element={ <InstructorDashboard/>} /> */}
+
           {/* <Route path="/" element={<AdminDashboard />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
