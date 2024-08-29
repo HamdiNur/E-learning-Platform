@@ -79,7 +79,7 @@ const Navbar = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <li className="hover:text-[#E0F7FA] hover:underline hover:underline-offset-4 transition-all duration-100 ease-linear">
-                <Link to="/signin">Sign In</Link>
+                <Link to="/login">Login</Link>
               </li>
               <li className="hover:text-[#E0F7FA] hover:underline hover:underline-offset-4 transition-all duration-100 ease-linear">
                 <Link to="/signup">Sign Up</Link>
