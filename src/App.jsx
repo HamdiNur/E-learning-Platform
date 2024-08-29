@@ -5,13 +5,15 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 import Login from './pages/Login';
+import AdminDashboard from './components/AdminDashboard';
 
 function App() {
   return (
     <Router>
-      <div className="bg-[#E0F7FA] min-h-screen">
+      <div className="bg-background min-h-screen">
         <Navbar />
         <Routes>
+          {/* <Route path="/" element={<AdminDashboard />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<SignUp /> }/>
