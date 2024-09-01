@@ -8,22 +8,24 @@ import Login from './pages/Login';
 import AdminDashboard from './components/AdminDashboard/AdminDashboard';
 import InstructorDashboard from './components/InstructorDashboard/InstructorDashboard';
 import StudentDashboard from './components/StudentDashboard/StudentDashboard';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
     <Router>
       <div className="bg-background min-h-screen">
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
           {/* Replace the inner Routes with Route components */}
           {/* <Route path="/" element={<StudentDashboard />} /> */}
           {/* <Route path='/' element={ <InstructorDashboard />} /> */}
 
-          <Route path="/" element={<AdminDashboard />} />
-          {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
-          {/* <Route path="/signup" element={<SignUp />} /> */}
-          {/* <Route path="/login" element={<Login />} /> */}
+          {/* <Route path="/" element={<AdminDashboard />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} /> 
         </Routes>
       </div>
     </Router>
