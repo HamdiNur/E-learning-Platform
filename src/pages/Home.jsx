@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from '../components/HeroSection';
 import Contact from './Contact';
 import { FaChartBar, FaTruck, FaShieldAlt, FaCloud, FaPen, FaBolt } from 'react-icons/fa';
+import AboutUs from './AboutUs';
 
 const Home = () => (
   <div className="p-8 bg-[#E0F7FA] text-[#004D40]">
@@ -73,6 +74,7 @@ const Home = () => (
         </div>
       </div>
     </section>
+    <AboutUs/>
     <Contact />
   </div>
 );
